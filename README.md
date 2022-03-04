@@ -1,4 +1,4 @@
-# Storax Overlay
+# mXOverlay
 
 [![Build Status](https://travis-ci.org/storax/storax-overlay.png)](https://travis-ci.org/storax/storax-overlay)
 
