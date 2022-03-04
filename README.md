@@ -24,7 +24,7 @@ Download the overlay metadata into the _layman_ overlays directory:
 wget -q -O /etc/layman/overlays/mXoverlay.xml https://raw.githubusercontent.com/gako358/mXoverlay/main/overlay.xml
 ```
 
-Fetch all available overlays and add **storax-overlay**:
+Fetch all available overlays and add **mXoverlay**:
 
 ```
 layman -Lk
