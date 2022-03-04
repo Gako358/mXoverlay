@@ -4,7 +4,7 @@
 	<repo priority="50"
 	      quality="experimental"
 	      status="unofficial">
-		<name>storax-overlay</name>
+		<name>mXoverlay</name>
 		<description lang="en">
       mXoverlay contains ebuilds for projects
       that are not in the official Portage tree
