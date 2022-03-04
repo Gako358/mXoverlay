@@ -21,14 +21,14 @@ emerge -av app-portage/layman
 Download the overlay metadata into the _layman_ overlays directory:
 
 ```
-wget -q -O /etc/layman/overlays/storax-overlay.xml https://raw.githubusercontent.com/storax/storax-overlay/master/overlay.xml
+wget -q -O /etc/layman/overlays/mXoverlay.xml https://raw.githubusercontent.com/gako358/mXoverlay/main/overlay.xml
 ```
 
 Fetch all available overlays and add **storax-overlay**:
 
 ```
 layman -Lk
-layman -a storax-overlay
+layman -a mXoverlay
 ```
 
 ## Updates
@@ -36,7 +36,7 @@ layman -a storax-overlay
 Sync updates with:
 
 ```
-layman -s storax-overlay
+layman -s mXoverlay
 ```
 
 
@@ -45,6 +45,6 @@ layman -s storax-overlay
 To remove this overlay remove it from the active overlays first and then remove the metadata file:
 
 ```
-layman -d storax-overlay
-rm -r /etc/layman/overlays/storax-overlay.xml
+layman -d mXoverlay
+rm -r /etc/layman/overlays/mXoverlay.xml
 ```
