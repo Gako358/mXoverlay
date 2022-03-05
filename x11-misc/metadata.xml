@@ -1,0 +1,29 @@
+<pkgmetadata>
+    <maintainer type="person">
+        <email>gako358@outlook.com</email>
+        <name>Octiabrina Terrien-Puig</name>
+    </maintainer>
+    <upstream>
+        <remote-id type="github">themix-project/oomox</remote-id>
+    </upstream>
+    <use>
+        <flag name="base16">
+            Build the import and export plugin to support color palettes from the Base16 project
+        </flag>
+        <flag name="icons-archdroid">Build the Archdroid icons plugin</flag>
+        <flag name="icons-gnomecolors">Build the GNOME-colors icons plugin</flag>
+        <flag name="icons-numix">Build the Numix icons plugin</flag>
+        <flag name="icons-papirus">Build the Papirus icons plugin</flag>
+        <flag name="icons-suruplus">Build the Suru++ icons plugin</flag>
+        <flag name="icons-suruplus-aspromauros">Build the Suru++ Asprómauros icons plugin</flag>
+        <flag name="importcolors">
+            Build the import plugin to get color palettes from images
+        </flag>
+        <flag name="spotify">
+            Build the export plugin to apply color palettes to Spotify desktop player
+        </flag>
+        <flag name="theme-arc">Build the Arc theme plugin</flag>
+        <flag name="theme-materia">Build the Materia theme plugin</flag>
+        <flag name="theme-oomox">Build the Oomox theme plugin</flag>
+    </use>
+</pkgmetadata>

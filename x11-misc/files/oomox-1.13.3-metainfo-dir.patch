@@ -1,0 +1,13 @@
+--- a/Makefile
++++ b/Makefile
+@@ -37,8 +37,8 @@ install_gui: install_import_random
+ 	install -d $(DEST_PREFIX)/share/applications/
+ 	install -Dp -m 644 "$(PACKAGING_TMP_DIR)/packaging/com.github.themix_project.Oomox.desktop" "$(DEST_PREFIX)/share/applications/"
+
+-	install -d $(DEST_PREFIX)/share/appdata/
+-	install -Dp -m 644 "$(PACKAGING_TMP_DIR)/packaging/com.github.themix_project.Oomox.appdata.xml" "$(DEST_PREFIX)/share/appdata/"
++	install -d $(DEST_PREFIX)/share/metainfo/
++	install -Dp -m 644 "$(PACKAGING_TMP_DIR)/packaging/com.github.themix_project.Oomox.appdata.xml" "$(DEST_PREFIX)/share/metainfo/"
+
+ 	install -d $(DEST_PREFIX)/share/icons/hicolor/symbolic/apps/
+ 	install -Dp -m 644 "$(PACKAGING_TMP_DIR)/packaging/com.github.themix_project.Oomox-symbolic.svg" "$(DEST_PREFIX)/share/icons/hicolor/symbolic/apps/com.github.themix_project.Oomox-symbolic.svg"
