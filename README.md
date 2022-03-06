@@ -1,7 +1,5 @@
 # mXOverlay
 
-[![Build Status](https://travis-ci.org/storax/storax-overlay.png)](https://travis-ci.org/storax/storax-overlay)
-
 Overlay for projects not officially supported that I personally would like to manage with
 portage.
 
