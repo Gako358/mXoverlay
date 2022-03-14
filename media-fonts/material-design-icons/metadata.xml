@@ -1,0 +1,9 @@
+<pkgmetadata>
+  <maintainer type="person">
+    <email>gako358@outlook.com</email>
+    <name>MerrinX</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">google/material-design-icons</remote-id>
+  </upstream>
+</pkgmetadata>
