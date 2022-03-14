@@ -1,6 +1,10 @@
 <pkgmetadata>
-    <maintainer type="person">
-        <email>unknown@pentoo.ch</email>
-        <name>Author Unknown</name>
-    </maintainer>
+  <maintainer type="person">
+    <email>gako358@outlook.com</email>
+    <name>MerrinX</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">pystache</remote-id>
+    <remote-id type="github">defunkt/pystache</remote-id>
+  </upstream>
 </pkgmetadata>
