@@ -15,7 +15,7 @@
 			<email>gako358@outlook.com</email>
 			<name>MerrinX</name>
 		</owner>
-		<source type="git">https://github.com/gako358/mXoverlay.git</source>
+		<source type="git">git://github.com/gako358/mXoverlay.git</source>
 		<feed>https://github.com/gako358/mXoverlay/commits/main.atom</feed>
 	</repo>
 </repositories>
